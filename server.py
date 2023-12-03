@@ -15,7 +15,7 @@ def authenticate_user(username, password):
     return credentials.get(username) == password
 
 def get_proxies(proxy_type):
-    filename = f'checker/{proxy_type.lower()}.txt'
+    filename = f'{proxy_type.lower()}.txt'
     with open(filename, 'r') as file:
         proxies = file.read()
     return proxies
