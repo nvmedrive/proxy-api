@@ -5,11 +5,26 @@ a shitty proxy api made by t.me/nvmedrive
 
 ## Installing
 
-its easy
+git clone https://github.com/nvmedrive/proxy-api.git
+
+cd proxy-api
+
+apt update 
+
+apt install golang-go
+
+apt install python3
+
+apt install python3-pip
 
 pip install flask
 
-zmap -p 8080 | ./scan -p 8080 -o file.txt
+
+## Running
+
+screen -d -m -S API_python python3 server.py
+
+screen -d -m -S Scanner_zmap zmap -p 8080 | ./scan -p 8080 -o http.txt
 
 
 ## Hosting
