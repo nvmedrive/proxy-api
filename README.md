@@ -34,3 +34,13 @@ you will want a scanning allowed host
 I recoment http://dashboard.vpsvault.host/ affordable and works fine
 
 1 core and 1gb works fine for me
+
+|||||
+
+another good host is https://pfcloud.io/ they got cheap ass servers and allow scanning
+
+## Goodbyes
+
+Thank you sigmas for using the shittest proxy api
+
+https://t.me/illexirc2 | @nvmedrive on tele
